@@ -14,7 +14,7 @@ namespace Robocon2015
 {
     public partial class Entry : Form
     {
-
+       
         public Entry()
         {
             InitializeComponent();
@@ -23,6 +23,7 @@ namespace Robocon2015
 
         public void fillComboBox()
         {
+            
             String constring ="server = ENVY\\SQLEXPRESS; database = Robocon2016db; integrated security = SSPI";
             String query = "select CollegeDisplayName from RoboconTable order by CollegeDisplayName;";
             SqlConnection conDataBase = new SqlConnection(constring);
@@ -56,14 +57,17 @@ namespace Robocon2015
                  !combobox_red.Text.Equals("") &&
                  !combobox_blue.Text.Equals("") )
              {
-                 Form match = new Match(combobox_red.Text, combobox_blue.Text, lbl_matchtype.Text);
+                 Form match = new Match(combobox_red.Text, combobox_blue.Text, lbl_matchtype.Text,label1.Text);
                  match.Show();
 
                  combobox_red.ResetText();
                  combobox_blue.ResetText();
                  lbl_matchtype.Text = "??";
-             }
-         }
+                 label1.Text = "Game";
+
+            }
+            
+        }
 
         private void exitToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -114,6 +118,30 @@ namespace Robocon2015
         private void combobox_red_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void game1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Game-1";
+          //  game = label1.Text;
+
+        }
+
+        private void lbl_matchtype_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void game2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Game-2";
+           // game = label1.Text;
+        }
+
+        private void game3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Game-3";
+           // game = label1.Text;
         }
     }
 }

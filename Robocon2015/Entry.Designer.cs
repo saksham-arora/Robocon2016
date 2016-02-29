@@ -33,6 +33,9 @@
             this.registerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.LToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.game3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.game2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.game1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.QFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,6 +44,7 @@
             this.combobox_red = new System.Windows.Forms.ComboBox();
             this.combobox_blue = new System.Windows.Forms.ComboBox();
             this.lbl_matchtype = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,10 +91,35 @@
             // 
             // LToolStripMenuItem
             // 
+            this.LToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.game3ToolStripMenuItem,
+            this.game2ToolStripMenuItem,
+            this.game1ToolStripMenuItem});
             this.LToolStripMenuItem.Name = "LToolStripMenuItem";
             this.LToolStripMenuItem.Size = new System.Drawing.Size(25, 20);
             this.LToolStripMenuItem.Text = "L";
             this.LToolStripMenuItem.Click += new System.EventHandler(this.LToolStripMenuItem_Click);
+            // 
+            // game3ToolStripMenuItem
+            // 
+            this.game3ToolStripMenuItem.Name = "game3ToolStripMenuItem";
+            this.game3ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.game3ToolStripMenuItem.Text = "Game-3";
+            this.game3ToolStripMenuItem.Click += new System.EventHandler(this.game3ToolStripMenuItem_Click);
+            // 
+            // game2ToolStripMenuItem
+            // 
+            this.game2ToolStripMenuItem.Name = "game2ToolStripMenuItem";
+            this.game2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.game2ToolStripMenuItem.Text = "Game-2";
+            this.game2ToolStripMenuItem.Click += new System.EventHandler(this.game2ToolStripMenuItem_Click);
+            // 
+            // game1ToolStripMenuItem
+            // 
+            this.game1ToolStripMenuItem.Name = "game1ToolStripMenuItem";
+            this.game1ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.game1ToolStripMenuItem.Text = "Game-1";
+            this.game1ToolStripMenuItem.Click += new System.EventHandler(this.game1ToolStripMenuItem_Click);
             // 
             // SLToolStripMenuItem
             // 
@@ -160,6 +189,16 @@
             this.lbl_matchtype.Size = new System.Drawing.Size(19, 13);
             this.lbl_matchtype.TabIndex = 10;
             this.lbl_matchtype.Text = "??";
+            this.lbl_matchtype.Click += new System.EventHandler(this.lbl_matchtype_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(252, 750);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Game";
             // 
             // Entry
             // 
@@ -168,6 +207,7 @@
             this.BackgroundImage = global::Robocon2015.Properties.Resources.Entry;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1024, 768);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbl_matchtype);
             this.Controls.Add(this.combobox_blue);
             this.Controls.Add(this.combobox_red);
@@ -199,6 +239,10 @@
         private System.Windows.Forms.ToolStripMenuItem registerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem FToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem game3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem game2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem game1ToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
     }
 }
 

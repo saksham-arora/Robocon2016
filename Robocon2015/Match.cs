@@ -19,29 +19,35 @@ namespace Robocon2015
         String blueteam;
         String redname;
         String bluename;
+        String game;
+              
 
-        public Match(String r, String b, String m)
+        public Match(String r, String b, String m,String g)
         {
             InitializeComponent();
             redteam = r;
             blueteam = b;
             matchtype = m;
+            game = g;
+         
         }
+
 
         private void Match_Load(object sender, EventArgs e)
         {
             lbl_red.Text = redteam;
-            lbl_redScore.Text = "";
+            //lbl_redScore.Text = "";
             lbl_blue.Text = blueteam;
-            lbl_blueScore.Text = "";
-            lbl_matchtype.Text = matchtype;
-            
+            //lbl_blueScore.Text = "";
+            //lbl_matchtype.Text = matchtype;
+            //MessageBox.Show(Entry.game);
+            label3.Text = game;
             string constring = @"ENVY\SQLEXPRESS;Initial Catalog=Robocon2016db;Integrated Security=True;Pooling=False";
             string Query = "select * from RoboconTable where CollegeDisplayName='" + lbl_red.Text + "';";
             SqlConnection conDataBase = new SqlConnection(constring);
             SqlCommand cmdDataBase = new SqlCommand(Query, conDataBase);
             SqlDataReader myReader;
-
+      
             try
             {
 
@@ -126,10 +132,13 @@ namespace Robocon2015
 
         private void btn_show_Click(object sender, EventArgs e)
         {
-            lbl_redScore.Text = "";
-            lbl_redScore.Text = txt_red.Text;
-            lbl_blueScore.Text = "";
-            lbl_blueScore.Text = txt_blue.Text;
+           // label1.Text = " ";
+            label1.Text = textBox1.Text;
+            label1.Visible = true;
+
+            //label2.Text = " ";
+            label2.Text = textBox2.Text;
+            label2.Visible = true;
         }
 
         private void redWinToolStripMenuItem_Click(object sender, EventArgs e)
@@ -140,6 +149,12 @@ namespace Robocon2015
                 winner.Show();
                 this.Close();
             }
+           /* else
+            {
+                Form winner = new Winner(redname);
+                winner.Show();
+                this.Close();
+            }*/
         }
 
         private void blueWinToolStripMenuItem_Click(object sender, EventArgs e)
@@ -150,6 +165,12 @@ namespace Robocon2015
                 winner.Show();
                 this.Close();
             }
+            /*else
+            {
+                Form winner = new Winner(redname);
+                winner.Show();
+                this.Close();
+            }*/
         }
 
         private void btn_tscore_Click(object sender, EventArgs e)
@@ -158,6 +179,26 @@ namespace Robocon2015
         }
 
         private void RedTeamImage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_red_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

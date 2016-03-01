@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
+=======
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.txtCollegeDisplayName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
@@ -52,6 +56,10 @@
             // 
             // label4
             // 
+<<<<<<< HEAD
+=======
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(108, 246);
             this.label4.Name = "label4";
@@ -109,6 +117,10 @@
             // 
             // CollegeImage
             // 
+<<<<<<< HEAD
+=======
+            this.CollegeImage.BackColor = System.Drawing.Color.Transparent;
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.CollegeImage.Location = new System.Drawing.Point(306, 287);
             this.CollegeImage.Name = "CollegeImage";
             this.CollegeImage.Size = new System.Drawing.Size(160, 160);
@@ -125,6 +137,10 @@
             // 
             // label3
             // 
+<<<<<<< HEAD
+=======
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(128, 340);
             this.label3.Name = "label3";
@@ -135,6 +151,10 @@
             // 
             // label2
             // 
+<<<<<<< HEAD
+=======
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(128, 185);
             this.label2.Name = "label2";
@@ -145,6 +165,10 @@
             // 
             // label1
             // 
+<<<<<<< HEAD
+=======
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(128, 111);
             this.label1.Name = "label1";
@@ -165,6 +189,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
+<<<<<<< HEAD
+=======
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1024, 768);
             this.Controls.Add(this.txtID);
@@ -184,6 +212,10 @@
             this.Name = "Register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
+<<<<<<< HEAD
+=======
+            this.Load += new System.EventHandler(this.Register_Load);
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             ((System.ComponentModel.ISupportInitialize)(this.CollegeImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

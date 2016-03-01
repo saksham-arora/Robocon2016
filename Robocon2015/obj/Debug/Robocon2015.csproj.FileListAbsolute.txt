@@ -12,6 +12,7 @@ D:\Workspace\Robocon2015\Robocon2015\obj\Debug\Robocon2015.csproj.GenerateResour
 D:\Workspace\Robocon2015\Robocon2015\obj\Debug\Robocon2015.exe
 D:\Workspace\Robocon2015\Robocon2015\obj\Debug\Robocon2015.pdb
 D:\Workspace\Robocon2015\Robocon2015\obj\Debug\Robocon2015.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Downloads\Robocon2015-master\Robocon2015\bin\Debug\Robocon2015.exe.config
 C:\Downloads\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.exe
 C:\Downloads\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.pdb
@@ -24,3 +25,17 @@ C:\Downloads\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.Properties.Res
 C:\Downloads\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.Register.resources
 C:\Downloads\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.Winner.resources
 C:\Downloads\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.csproj.GenerateResource.Cache
+=======
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\bin\Debug\Robocon2015.exe.config
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.exe
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.pdb
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\bin\Debug\Robocon2015.exe
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\bin\Debug\Robocon2015.pdb
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.csprojResolveAssemblyReference.cache
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.Entry.resources
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.Match.resources
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.Properties.Resources.resources
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.Register.resources
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.Winner.resources
+D:\Robocon2015-master\Robocon2015-master\Robocon2015\obj\Debug\Robocon2015.csproj.GenerateResource.Cache
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9

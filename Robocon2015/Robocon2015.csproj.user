@@ -9,5 +9,9 @@
     <ErrorReportUrlHistory />
     <FallbackCulture>en-US</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
+<<<<<<< HEAD
+=======
+    <ProjectView>ShowAllFiles</ProjectView>
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
   </PropertyGroup>
 </Project>

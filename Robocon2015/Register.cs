@@ -29,7 +29,11 @@ namespace Robocon2015
 
         private void button4_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             String constring = @"Data Source=(localdb)\v11.0;Initial Catalog=Robocon2015db;Integrated Security=True;Pooling=False";
+=======
+            String constring = "server = ENVY\\SQLEXPRESS; database = Robocon2016db; integrated security = SSPI";
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             String Query = "delete from RoboconTable where CollegeDisplayName='" + this.txtCollegeDisplayName.Text + "';";
             SqlConnection conDataBase = new SqlConnection(constring);
             SqlCommand cmdDataBase = new SqlCommand(Query, conDataBase);
@@ -63,10 +67,15 @@ namespace Robocon2015
             imageBt = br.ReadBytes((int)fstream.Length);
 
 
+<<<<<<< HEAD
             //SqlConnection conn = new SqlConnection("server= AAKASH-PC\\SQLEXPRESS; initial catalog= ars ; integrated security= true");
             //conn.Open();
 
             String constring = @"Data Source=(localdb)\v11.0;Initial Catalog=Robocon2015db;Integrated Security=True;Pooling=False";
+=======
+
+            String constring = "server = ENVY\\SQLEXPRESS; database = Robocon2016db; integrated security = SSPI";
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             String Query = "insert into RoboconTable(Id,CollegeName,CollegeDisplayName,CollegeImage) values('" + Convert.ToInt32(this.txtID.Text) + "','" + this.txtCollegeName.Text + "','" + this.txtCollegeDisplayName.Text + "',@IMG) ;";
             SqlConnection conDataBase = new SqlConnection(constring);
             SqlCommand cmdDataBase = new SqlCommand(Query, conDataBase);
@@ -123,5 +132,13 @@ namespace Robocon2015
                 MessageBox.Show(ex.Message.ToString());
             }
         }
+<<<<<<< HEAD
+=======
+
+        private void Register_Load(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
     }
 }

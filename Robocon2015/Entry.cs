@@ -14,7 +14,11 @@ namespace Robocon2015
 {
     public partial class Entry : Form
     {
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
         public Entry()
         {
             InitializeComponent();
@@ -23,7 +27,12 @@ namespace Robocon2015
 
         public void fillComboBox()
         {
+<<<<<<< HEAD
             String constring = @"Data Source=(localdb)\v11.0;Initial Catalog=Robocon2015db;Integrated Security=True;Pooling=False";
+=======
+            
+            String constring ="server = ENVY\\SQLEXPRESS; database = Robocon2016db; integrated security = SSPI";
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             String query = "select CollegeDisplayName from RoboconTable order by CollegeDisplayName;";
             SqlConnection conDataBase = new SqlConnection(constring);
             SqlCommand cmdDataBase = new SqlCommand(query, conDataBase);
@@ -56,14 +65,26 @@ namespace Robocon2015
                  !combobox_red.Text.Equals("") &&
                  !combobox_blue.Text.Equals("") )
              {
+<<<<<<< HEAD
                  Form match = new Match(combobox_red.Text, combobox_blue.Text, lbl_matchtype.Text);
+=======
+                 Form match = new Match(combobox_red.Text, combobox_blue.Text, lbl_matchtype.Text,label1.Text);
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
                  match.Show();
 
                  combobox_red.ResetText();
                  combobox_blue.ResetText();
                  lbl_matchtype.Text = "??";
+<<<<<<< HEAD
              }
          }
+=======
+                 label1.Text = "Game";
+
+            }
+            
+        }
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
 
         private void exitToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -101,11 +122,51 @@ namespace Robocon2015
             lbl_matchtype.Text = "Final";
         }
 
+<<<<<<< HEAD
         private void Entry_Load(object sender, EventArgs e)
+=======
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
 
+        private void combobox_blue_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
+        }
+
+        private void combobox_red_SelectedIndexChanged(object sender, EventArgs e)
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
+        {
+
+        }
+
+<<<<<<< HEAD
+
+=======
+        private void game1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Game-1";
+          //  game = label1.Text;
+
+        }
+
+        private void lbl_matchtype_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void game2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Game-2";
+           // game = label1.Text;
+        }
+
+        private void game3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Game-3";
+           // game = label1.Text;
+        }
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
     }
 }

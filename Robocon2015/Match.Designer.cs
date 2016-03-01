@@ -33,16 +33,29 @@
             this.blueWinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lbl_red = new System.Windows.Forms.Label();
             this.RedTeamImage = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
             this.lbl_redScore = new System.Windows.Forms.Label();
             this.lbl_blueScore = new System.Windows.Forms.Label();
             this.BlueTeamImage = new System.Windows.Forms.PictureBox();
             this.lbl_blue = new System.Windows.Forms.Label();
             this.txt_red = new System.Windows.Forms.TextBox();
             this.txt_blue = new System.Windows.Forms.TextBox();
+=======
+            this.BlueTeamImage = new System.Windows.Forms.PictureBox();
+            this.lbl_blue = new System.Windows.Forms.Label();
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.btn_show = new System.Windows.Forms.Button();
             this.btn_tscore = new System.Windows.Forms.Button();
             this.lbl_matchtype = new System.Windows.Forms.Label();
             this.lbl_totalscore = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+=======
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.RedTeamImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BlueTeamImage)).BeginInit();
@@ -65,16 +78,26 @@
             // redWinToolStripMenuItem
             // 
             this.redWinToolStripMenuItem.Name = "redWinToolStripMenuItem";
+<<<<<<< HEAD
             this.redWinToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.redWinToolStripMenuItem.Text = "Blue Win";
+=======
+            this.redWinToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+            this.redWinToolStripMenuItem.Text = "Red Win";
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.redWinToolStripMenuItem.Click += new System.EventHandler(this.redWinToolStripMenuItem_Click);
             // 
             // blueWinToolStripMenuItem
             // 
             this.blueWinToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.blueWinToolStripMenuItem.Name = "blueWinToolStripMenuItem";
+<<<<<<< HEAD
             this.blueWinToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.blueWinToolStripMenuItem.Text = "Red Win";
+=======
+            this.blueWinToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.blueWinToolStripMenuItem.Text = "Blue Win";
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.blueWinToolStripMenuItem.Click += new System.EventHandler(this.blueWinToolStripMenuItem_Click);
             // 
             // lbl_red
@@ -97,6 +120,7 @@
             this.RedTeamImage.Size = new System.Drawing.Size(225, 200);
             this.RedTeamImage.TabIndex = 2;
             this.RedTeamImage.TabStop = false;
+<<<<<<< HEAD
             // 
             // lbl_redScore
             // 
@@ -119,6 +143,9 @@
             this.lbl_blueScore.Size = new System.Drawing.Size(220, 190);
             this.lbl_blueScore.TabIndex = 7;
             this.lbl_blueScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+=======
+            this.RedTeamImage.Click += new System.EventHandler(this.RedTeamImage_Click);
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             // 
             // BlueTeamImage
             // 
@@ -139,6 +166,7 @@
             this.lbl_blue.TabIndex = 5;
             this.lbl_blue.Text = "Blue Team";
             this.lbl_blue.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+<<<<<<< HEAD
             this.lbl_blue.Click += new System.EventHandler(this.lbl_blue_Click);
             // 
             // txt_red
@@ -156,6 +184,8 @@
             this.txt_blue.Size = new System.Drawing.Size(26, 20);
             this.txt_blue.TabIndex = 16;
             this.txt_blue.Text = "0";
+=======
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             // 
             // btn_show
             // 
@@ -186,7 +216,11 @@
             this.lbl_matchtype.Name = "lbl_matchtype";
             this.lbl_matchtype.Size = new System.Drawing.Size(300, 50);
             this.lbl_matchtype.TabIndex = 19;
+<<<<<<< HEAD
             this.lbl_matchtype.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+=======
+            this.lbl_matchtype.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             // 
             // lbl_totalscore
             // 
@@ -198,9 +232,74 @@
             this.lbl_totalscore.Size = new System.Drawing.Size(300, 50);
             this.lbl_totalscore.TabIndex = 20;
             this.lbl_totalscore.Text = "Total Score";
+<<<<<<< HEAD
             this.lbl_totalscore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbl_totalscore.Visible = false;
             // 
+=======
+            this.lbl_totalscore.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lbl_totalscore.Visible = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(217, 746);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 21;
+            this.textBox1.Text = "0";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(682, 748);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 22;
+            this.textBox2.Text = "0";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Yellow;
+            this.label1.Location = new System.Drawing.Point(158, 599);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(299, 108);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "label1";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label1.Visible = false;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Yellow;
+            this.label2.Location = new System.Drawing.Point(691, 599);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(299, 108);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "label2";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label2.Visible = false;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Yellow;
+            this.label3.Location = new System.Drawing.Point(415, 432);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(126, 46);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "label3";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             // Match
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -208,16 +307,29 @@
             this.BackgroundImage = global::Robocon2015.Properties.Resources.VS3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1024, 768);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.Controls.Add(this.lbl_totalscore);
             this.Controls.Add(this.lbl_matchtype);
             this.Controls.Add(this.btn_tscore);
             this.Controls.Add(this.btn_show);
+<<<<<<< HEAD
             this.Controls.Add(this.txt_blue);
             this.Controls.Add(this.txt_red);
             this.Controls.Add(this.lbl_blueScore);
             this.Controls.Add(this.BlueTeamImage);
             this.Controls.Add(this.lbl_blue);
             this.Controls.Add(this.lbl_redScore);
+=======
+            this.Controls.Add(this.BlueTeamImage);
+            this.Controls.Add(this.lbl_blue);
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             this.Controls.Add(this.RedTeamImage);
             this.Controls.Add(this.lbl_red);
             this.Controls.Add(this.menuStrip1);
@@ -241,17 +353,31 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Label lbl_red;
         private System.Windows.Forms.PictureBox RedTeamImage;
+<<<<<<< HEAD
         private System.Windows.Forms.Label lbl_redScore;
         private System.Windows.Forms.Label lbl_blueScore;
+=======
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
         private System.Windows.Forms.PictureBox BlueTeamImage;
         private System.Windows.Forms.Label lbl_blue;
         private System.Windows.Forms.ToolStripMenuItem redWinToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem blueWinToolStripMenuItem;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txt_red;
         private System.Windows.Forms.TextBox txt_blue;
+=======
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
         private System.Windows.Forms.Button btn_show;
         private System.Windows.Forms.Button btn_tscore;
         private System.Windows.Forms.Label lbl_matchtype;
         private System.Windows.Forms.Label lbl_totalscore;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
     }
 }

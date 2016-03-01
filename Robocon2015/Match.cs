@@ -19,13 +19,21 @@ namespace Robocon2015
         String blueteam;
         String redname;
         String bluename;
+<<<<<<< HEAD
 
         public Match(String r, String b, String m)
+=======
+        String game;
+              
+
+        public Match(String r, String b, String m,String g)
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
         {
             InitializeComponent();
             redteam = r;
             blueteam = b;
             matchtype = m;
+<<<<<<< HEAD
         }
 
         private void Match_Load(object sender, EventArgs e)
@@ -37,11 +45,32 @@ namespace Robocon2015
             lbl_matchtype.Text = matchtype;
             
             string constring = @"Data Source=(localdb)\v11.0;Initial Catalog=Robocon2015db;Integrated Security=True;Pooling=False";
+=======
+            game = g;
+         
+        }
+
+
+        private void Match_Load(object sender, EventArgs e)
+        {
+            lbl_red.Text = redteam;
+            //lbl_redScore.Text = "";
+            lbl_blue.Text = blueteam;
+            //lbl_blueScore.Text = "";
+            //lbl_matchtype.Text = matchtype;
+            //MessageBox.Show(Entry.game);
+            label3.Text = game;
+            string constring = @"ENVY\SQLEXPRESS;Initial Catalog=Robocon2016db;Integrated Security=True;Pooling=False";
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             string Query = "select * from RoboconTable where CollegeDisplayName='" + lbl_red.Text + "';";
             SqlConnection conDataBase = new SqlConnection(constring);
             SqlCommand cmdDataBase = new SqlCommand(Query, conDataBase);
             SqlDataReader myReader;
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
             try
             {
 
@@ -126,10 +155,20 @@ namespace Robocon2015
 
         private void btn_show_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             lbl_redScore.Text = "";
             lbl_redScore.Text = txt_red.Text;
             lbl_blueScore.Text = "";
             lbl_blueScore.Text = txt_blue.Text;
+=======
+           // label1.Text = " ";
+            label1.Text = textBox1.Text;
+            label1.Visible = true;
+
+            //label2.Text = " ";
+            label2.Text = textBox2.Text;
+            label2.Visible = true;
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
         }
 
         private void redWinToolStripMenuItem_Click(object sender, EventArgs e)
@@ -140,6 +179,15 @@ namespace Robocon2015
                 winner.Show();
                 this.Close();
             }
+<<<<<<< HEAD
+=======
+           /* else
+            {
+                Form winner = new Winner(redname);
+                winner.Show();
+                this.Close();
+            }*/
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
         }
 
         private void blueWinToolStripMenuItem_Click(object sender, EventArgs e)
@@ -150,6 +198,15 @@ namespace Robocon2015
                 winner.Show();
                 this.Close();
             }
+<<<<<<< HEAD
+=======
+            /*else
+            {
+                Form winner = new Winner(redname);
+                winner.Show();
+                this.Close();
+            }*/
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
         }
 
         private void btn_tscore_Click(object sender, EventArgs e)
@@ -157,10 +214,36 @@ namespace Robocon2015
             lbl_totalscore.Visible = lbl_totalscore.Visible ? false : true;
         }
 
+<<<<<<< HEAD
         private void lbl_blue_Click(object sender, EventArgs e)
+=======
+        private void RedTeamImage_Click(object sender, EventArgs e)
         {
 
         }
 
+        private void txt_red_TextChanged(object sender, EventArgs e)
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
+        {
+
+        }
+
+<<<<<<< HEAD
+=======
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> ee9a64713d2d01141e34bb0f62e85f92c8136be9
     }
 }
